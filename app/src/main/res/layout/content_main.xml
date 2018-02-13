@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ullesy.ullesy.activity.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/newsLineTextView"
+            android:layout_width="402dp"
+            android:layout_height="214dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="67dp"
+            android:text="Oops ! Ullesy is facing issue."
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+
+            <SearchView
+                android:id="@+id/searchBoxInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        <!--
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="81dp" />-->
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
