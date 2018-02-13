@@ -198,22 +198,4 @@ public class MainActivity extends AppCompatActivity {
         setContentView(relativeLayout); //you might be forgetting this
     }
 
-    public void addListenerOnSubmitButton() {
-
-        password = (EditText) findViewById(R.id.txtPassword);
-        btnSubmit = (Button) findViewById(R.id.btnSubmit);
-
-        btnSubmit.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                toast.setGravity(Gravity.TOP | Gravity.LEFT, 0, 0);
-                toast.setText(password.getText());
-                toast.show();
-
-            }
-
-        });
-
-    }
 }
